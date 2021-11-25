@@ -9,6 +9,9 @@ total = mark1 + mark2 + mark3 + mark4 + mark5
 
 average = total / 5
 
+print(f"\nTotal mark is {total}\n")
+print(f"Average mark is {average}\n")
+
 if average>=80:
     print("A grade")
 elif average>=70:
