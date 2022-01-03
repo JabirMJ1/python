@@ -9,5 +9,5 @@ for i in range(start, end+1):
         if i % j == 0:
             f = f + 1
             break
-    if f==0:
+    if f==0 and i!=1:
         print(i)
