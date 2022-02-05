@@ -10,4 +10,5 @@ class Rectangle:
 len = int(input("Enter the length of rectangle"))
 bre = int(input("Enter the breadth of rectangle"))
 rect1 = Rectangle(len, bre)
-print(rect1.area())
+print(f"Area: {rect1.area()}")
+print(f"Perimeter: {rect1.perimeter()}")
